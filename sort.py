@@ -50,7 +50,7 @@ class MergeSort():
         def merge_sort(array):
             n=len(array)
             if n<2:
-                return 
+                return 0
             mid=int(n/2)
             left=[]
             right=[]
